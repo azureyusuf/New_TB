@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
  
 public class Connector {
  
-    public static void testkoneksi() {
+    public  void testkoneksi() {
         // TODO code application logic here
         String Dburl ="jdbc:mysql://localhost:3306/db_ruangkelas";
         String username="root";

@@ -18,7 +18,8 @@ import org.netbeans.lib.awtextra.AbsoluteLayout;
  * @author Azure
  */
 public class PanelGui extends JFrame implements ActionListener {
-
+   Connector testDB  = new Connector();
+   
     String IDruang;
     private JTabbedPane tabpane;
     private JLabel label1, label2, label3, label4, label5, label6, label7, label8, label9,
@@ -303,6 +304,7 @@ public class PanelGui extends JFrame implements ActionListener {
         panel5.add(tombol5, new AbsoluteConstraints(580, 600, 100, 30));
         panel5.add(tombol6, new AbsoluteConstraints(10, 600, 100, 30));
         
+        testDB.testkoneksi();
         
          
         getContentPane().add(tabpane);
@@ -314,7 +316,7 @@ public class PanelGui extends JFrame implements ActionListener {
     }
 
   
-
+    
     @Override
     public void actionPerformed(ActionEvent e) {
         button.add(panel1.add(label1));

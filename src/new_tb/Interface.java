@@ -14,8 +14,7 @@ public interface Interface {
     void get(String NamaRuang, String LokasiRuang, String ProgramStudi,
             String Fakultas);
 
-    void get(int PanjangRuang, int LebarRuang, int JumlahKursi,
-            int JumlahPintu, int JumlahJendela);
+    void get(int PanjangRuang, int LebarRuang, int JumlahKursi,int JumlahPintu, int JumlahJendela);
 
     void get(int JumlahStopKontak, String KondisiStopKontak,
             String PosisiStopKontak, int JumlahKabelLCD,

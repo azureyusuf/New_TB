@@ -1,0 +1,136 @@
+===Database db_ruangkelas
+
+== Table structure for table identias
+
+|------
+|Column|Type|Null|Default
+|------
+|//**NamaRuang**//|varchar(5)|No|
+|LokasiRuang|varchar(5)|No|
+|ProgramStudi|varchar(20)|No|
+|Fakultas|varchar(20)|No|
+== Dumping data for table identias
+
+|123|23|3|2
+|14|1|2|3
+|403|gkb1|infomatika|teknik
+|qwe|wqew|asd|asd
+== Table structure for table tb_hasil
+
+|------
+|Column|Type|Null|Default
+|------
+|//**NamaRuang**//|varchar(10)|No|
+|Hasil|char(10)|No|
+|Point|char(10)|No|
+== Dumping data for table tb_hasil
+
+== Table structure for table tb_hasilnamaruang
+
+|------
+|Column|Type|Null|Default
+|------
+|//**NamaRuang**//|varchar(10)|No|
+|hkondisiruang|varchar(10)|No|
+|hsarana|varchar(10)|No|
+|hkondisikelas|varchar(10)|No|
+|hkebersihan|varchar(10)|No|
+|hkenyamanan|varchar(10)|No|
+|hkeamanan|varchar(10)|No|
+== Dumping data for table tb_hasilnamaruang
+
+== Table structure for table tb_keamanan
+
+|------
+|Column|Type|Null|Default
+|------
+|//**NamaRuang**//|varchar(10)|No|
+|Kekokohan|varchar(10)|No|
+|KunciPintuJendela|varchar(10)|No|
+|Bahaya|varchar(10)|No|
+== Dumping data for table tb_keamanan
+
+== Table structure for table tb_kebersihan
+
+|------
+|Column|Type|Null|Default
+|------
+|//**NamaRuang**//|varchar(10)|No|
+|SirkulasiUdara|varchar(10)|No|
+|NilaiPencahayaan|int(10)|No|
+|Kelembaban|int(10)|No|
+|Suhu|int(10)|No|
+== Dumping data for table tb_kebersihan
+
+== Table structure for table tb_kenyamanan
+
+|------
+|Column|Type|Null|Default
+|------
+|//**NamaRuang**//|varchar(10)|No|
+|Kebisingan|varchar(10)|No|
+|Bau|varchar(10)|No|
+|Kebocoran|varchar(10)|No|
+|Kerusakan|varchar(10)|No|
+|Keausan|varchar(10)|No|
+== Dumping data for table tb_kenyamanan
+
+== Table structure for table tb_kondisikelas
+
+|------
+|Column|Type|Null|Default
+|------
+|//**NamaRuang**//|varchar(10)|No|
+|KondisiLantai|varchar(10)|No|
+|KondisiDinding|varchar(10)|No|
+|KondisiAtap|varchar(10)|No|
+|KondisiPintu|varchar(10)|No|
+|KondisiJendela|varchar(10)|No|
+== Dumping data for table tb_kondisikelas
+
+== Table structure for table tb_kondisiruang
+
+|------
+|Column|Type|Null|Default
+|------
+|//**NamaRuang**//|varchar(10)|No|
+|PanjangRuang|int(10)|No|
+|LebarRuang|int(10)|No|
+|JumlahKursi|int(10)|No|
+|JumlahPintu|int(10)|No|
+|JumlahJendela|int(10)|No|
+== Dumping data for table tb_kondisiruang
+
+|123|200|4|4|5|5
+|14|544|3|4|5|5
+|403|45|23|25|3|12
+|asd|500|5|5|5|5
+|qwe|250|5|5|5|5
+== Table structure for table tb_sarana
+
+|------
+|Column|Type|Null|Default
+|------
+|//**NamaRuang**//|varchar(10)|No|
+|JumlahStopKontak|varchar(10)|No|
+|KondisiStopKontak|varchar(10)|No|
+|PosisiStopKontak|varchar(10)|No|
+|JumlahKabelLCD|varchar(10)|No|
+|KondisiKabelLCD|varchar(10)|No|
+|PosisiKabelLCD|varchar(10)|No|
+|JumlahLampu|varchar(10)|No|
+|KondisiLampu|varchar(10)|No|
+|PosisiLampu|varchar(10)|No|
+|JumlahKipasAngin|varchar(10)|No|
+|KondisiKipasAngin|varchar(10)|No|
+|PosisiKipasAngin|varchar(10)|No|
+|JumlahAC|varchar(10)|No|
+|KondisiAC|varchar(10)|No|
+|PosisiAC|varchar(10)|No|
+|SSID|varchar(10)|No|
+|Bandwidth|varchar(10)|No|
+|JumlahCCTV|varchar(10)|No|
+|KondisiCCTV|varchar(10)|No|
+|PosisiCCTV|varchar(10)|No|
+== Dumping data for table tb_sarana
+

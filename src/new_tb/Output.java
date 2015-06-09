@@ -20,6 +20,7 @@ public class Output implements Interface {
         System.out.println("Program Studi : " + ProgramStudi);
     }
 
+ 
     public void get(int PanjangRuang, int LebarRuang, int JumlahKursi,
             int JumlahPintu, int JumlahJendela) {
         System.out.println(" Kondisi Ruang Kelas ");

@@ -15,7 +15,7 @@ public abstract class Controler {
         System.out.println("Halaman " + Masukan);
     }
 
-    abstract void KondisiRuang();
+    abstract int KondisiRuang();
 
     abstract void Sarana();
 
